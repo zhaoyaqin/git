@@ -20,6 +20,26 @@
     NSLog(@"123");
     NSString *str = @"gsdg";
      NSLog(@"%@", str);
+    
+    
+    
+    
+    NSString *path = @"root/abcd/ef/xyz";
+    
+    NSArray *arr = [path componentsSeparatedByString:@"/"];
+    
+    NSLog(@"%@", arr);
+    
+    NSInteger count = arr.count;
+    NSArray *array1 = [[arr reverseObjectEnumerator] allObjects];
+    NSLog(@"%@", array1);
+//    for (int i = 0; i < count - 1; i++) {
+//        for (int j = 0; j < count /2; ;) {
+//            <#statements#>
+//        }
+//    }
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
