@@ -14,6 +14,7 @@
 		366BB2B31C0D84BC0056B648 /* Text.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 366BB2B11C0D84BC0056B648 /* Text.xcdatamodeld */; };
 		366BB2B51C0D84BC0056B648 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 366BB2B41C0D84BC0056B648 /* Assets.xcassets */; };
 		366BB2B81C0D84BC0056B648 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 366BB2B61C0D84BC0056B648 /* LaunchScreen.storyboard */; };
+		366BB2EA1C0ECA500056B648 /* Srudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 366BB2E91C0ECA500056B648 /* Srudent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		366BB2B41C0D84BC0056B648 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		366BB2B71C0D84BC0056B648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		366BB2B91C0D84BC0056B648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		366BB2E81C0ECA500056B648 /* Srudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Srudent.h; sourceTree = "<group>"; };
+		366BB2E91C0ECA500056B648 /* Srudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Srudent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				366BB2A91C0D84BC0056B648 /* AppDelegate.m */,
 				366BB2AB1C0D84BC0056B648 /* ViewController.h */,
 				366BB2AC1C0D84BC0056B648 /* ViewController.m */,
+				366BB2E81C0ECA500056B648 /* Srudent.h */,
+				366BB2E91C0ECA500056B648 /* Srudent.m */,
 				366BB2AE1C0D84BC0056B648 /* Main.storyboard */,
 				366BB2B41C0D84BC0056B648 /* Assets.xcassets */,
 				366BB2B61C0D84BC0056B648 /* LaunchScreen.storyboard */,
@@ -154,6 +159,7 @@
 			files = (
 				366BB2AD1C0D84BC0056B648 /* ViewController.m in Sources */,
 				366BB2AA1C0D84BC0056B648 /* AppDelegate.m in Sources */,
+				366BB2EA1C0ECA500056B648 /* Srudent.m in Sources */,
 				366BB2B31C0D84BC0056B648 /* Text.xcdatamodeld in Sources */,
 				366BB2A71C0D84BC0056B648 /* main.m in Sources */,
 			);
@@ -302,6 +308,7 @@
 				366BB2BE1C0D84BC0056B648 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
